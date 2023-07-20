@@ -1,4 +1,4 @@
-# @lit/lit-starter-ts
+# @lit/lit-starter-js
 
 ## 1.0.5
 

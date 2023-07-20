@@ -1,8 +1,8 @@
-# LitElement TypeScript starter
+# LitElement JavaScript starter
 
-This project includes a sample component using LitElement with TypeScript.
+This project includes a sample component using LitElement with JavaScript.
 
-This template is generated from the `lit-starter-ts` package in [the main Lit
+This template is generated from the `lit-starter-js` package in [the main Lit
 repo](https://github.com/lit/lit). Issues and PRs for this template should be
 filed in that repo.
 
@@ -14,27 +14,9 @@ Install dependencies:
 npm i
 ```
 
-## Build
-
-This sample uses the TypeScript compiler to produce JavaScript that runs in modern browsers.
-
-To build the JavaScript version of your component:
-
-```bash
-npm run build
-```
-
-To watch files and rebuild when the files are modified, run the following command in a separate shell:
-
-```bash
-npm run build:watch
-```
-
-Both the TypeScript compiler and lit-analyzer are configured to be very strict. You may want to change `tsconfig.json` to make them less strict.
-
 ## Testing
 
-This sample uses modern-web.dev's
+This sample modern-web.dev's
 [@web/test-runner](https://www.npmjs.com/package/@web/test-runner) for testing. See the
 [modern-web.dev testing documentation](https://modern-web.dev/docs/test-runner/overview) for
 more information.
@@ -81,9 +63,9 @@ The project is setup to recommend lit-plugin to VS Code users if they don't alre
 
 ## Linting
 
-Linting of TypeScript files is provided by [ESLint](eslint.org) and [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint). In addition, [lit-analyzer](https://www.npmjs.com/package/lit-analyzer) is used to type-check and lint lit-html templates with the same engine and rules as lit-plugin.
+Linting of JavaScript files is provided by [ESLint](eslint.org). In addition, [lit-analyzer](https://www.npmjs.com/package/lit-analyzer) is used to type-check and lint lit-html templates with the same engine and rules as lit-plugin.
 
-The rules are mostly the recommended rules from each project, but some have been turned off to make LitElement usage easier. The recommended rules are pretty strict, so you may want to relax them by editing `.eslintrc.json` and `tsconfig.json`.
+The rules are mostly the recommended rules from each project, but some have been turned off to make LitElement usage easier. The recommended rules are pretty strict, so you may want to relax them by editing `.eslintrc.json`.
 
 To lint the project run:
 
@@ -127,7 +109,7 @@ The site will usually be served at http://localhost:8000.
 
 This starter project doesn't include any build-time optimizations like bundling or minification. We recommend publishing components as unoptimized JavaScript modules, and performing build-time optimizations at the application level. This gives build tools the best chance to deduplicate code, remove dead code, and so on.
 
-For information on building application projects that include LitElement components, see [Build for production](https://lit.dev/docs/tools/production/) on the Lit site.
+For information on building application projects that include LitElement components, see [Build for production](https://lit.dev/docs/tools/production/) on the LitElement site.
 
 ## More information
 
